@@ -1,0 +1,85 @@
+
+
+body {
+    background-image: url(./images/background.avif);
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #fff;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    margin-top: 30px;
+
+
+}
+
+.input {
+background-color: #75b9e6;
+border-radius: 10px;
+}
+
+.btn {
+    background-color: #75b9e6;
+        border-radius: 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+            justify-content: space-between;
+    
+}
+
+.card {
+  background-color: rgb(176, 205, 238);
+  border-radius: 10px;
+}
+
+.text_block {
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.about {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.foto {
+    border-radius: 10px;
+}
+
+.load-more {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    background-color: #75b9e6;
+        border-radius: 10px;
+        height: 50px;
+}
